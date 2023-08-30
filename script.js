@@ -1,4 +1,6 @@
-var currentTimeDisplau = document.querySelector("#currentTime");
+//DEPENDENCIES====================================================
+var currentTimeDisplay = document.querySelector("#currentTime");
 var timeNow = dayjs().format(" MMMM DD, YYYY hh: mm: ss");
-currentTime.textContent = timeNow;
+//Displays current time on page load
+currentTimeDisplay.textContent = timeNow;
 console.log(timeNow);
